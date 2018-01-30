@@ -33,40 +33,40 @@ function find()
     var mo = m;
     
     
-    if(mo == 1 || mo =="january" || mo == "JANUARY"){
+    if(mo == 1 || mo =="january" || mo == "JANUARY" || mo == "January"){
         mc = 1;
     }
-    else if( mo == 2 || mo =="february" || mo =="FEBRUARY"){
+    else if( mo == 2 || mo =="february" || mo =="FEBRUARY" || mo == "February"){
         mc = 4;
     }
-    else if( mo == 3 || mo == "march" || mo =="MARCH"){
+    else if( mo == 3 || mo == "march" || mo =="MARCH" || mo == "March"){
         mc = 4;        
     }
-    else if( mo == 4 || mo =="april" || mo =="APRIL"){
+    else if( mo == 4 || mo =="april" || mo =="APRIL" || mo == "April"){
         mc = 0;        
     }
-    else if( mo == 5 || mo =="may" || mo =="MAY"){
+    else if( mo == 5 || mo =="may" || mo =="MAY" || mo == "May"){
         mc = 2;        
     }
-    else if( mo == 6 || mo=="june" || mo =="JUNE"){
+    else if( mo == 6 || mo=="june" || mo =="JUNE" || mo == "June"){
         mc = 5;        
     }
-    else if( mo == 7 || mo =="july" || mo=="JULY"){
+    else if( mo == 7 || mo =="july" || mo=="JULY" || mo == "July"){
         mc = 0;        
     }
-    else if( mo == 8 || mo == "august" || mo == "AUGUST"){
+    else if( mo == 8 || mo == "august" || mo == "AUGUST" || mo == "August"){
         mc = 3;        
     }
-    else if( mo == 9 || mo == "september" || mo == "SEPTEMBER"){
+    else if( mo == 9 || mo == "september" || mo == "SEPTEMBER" || mo == "September"){
         mc = 6;        
     }
-    else if( mo == 10 || mo == "october" || mo == "OCTOBER"){
+    else if( mo == 10 || mo == "october" || mo == "OCTOBER" || mo == "October"){
         mc = 1;        
     }
-    else if( mo == 11 || mo == "november" || mo == "NOVEMBER"){
+    else if( mo == 11 || mo == "november" || mo == "NOVEMBER" || mo == "November" ){
         mc = 4;        
     }
-    else if( mo == 12 || mo == "december" || mo == "DECEMBER"){
+    else if( mo == 12 || mo == "december" || mo == "DECEMBER" || mo == "December"){
         mc = 6;        
     }
     else {
