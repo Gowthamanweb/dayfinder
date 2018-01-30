@@ -69,9 +69,9 @@ function find()
     else if( mo == 12 || mo == "december" || mo == "DECEMBER"){
         mc = 6;        
     }
-    else{
-	 window.alert("Enter the month correctly");
-	}
+    else {
+        window.alert("Enter the month correctly");
+    }
 
     
 	  if (1500 <= y && y <= 1599) {
