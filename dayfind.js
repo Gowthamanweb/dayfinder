@@ -20,6 +20,10 @@ function find()
 		   r = r*10+a;
 		   i++;
 	  }
+	if ( d>=1 && d<=31)
+	{
+	}
+	
     var dd = d/2;
         dd = dd*2;
 	    sum1 = dd+ r;
@@ -71,6 +75,7 @@ function find()
     }
     else {
         window.alert("Enter the month correctly");
+	   exit();
     }
 
     
@@ -103,6 +108,7 @@ function find()
 	  }
 	  else {
 		  window.alert("enter the year within a limit");
+		  exit();
 	  }
 
 	   sum = sum1 + q + mc + yc;
