@@ -20,7 +20,7 @@ function find()
 		   r = r*10+a;
 		   i++;
 	  }
-	if ( d>=1 && d<=31)
+	/*if ( d>=1 && d<=31)
 	{
 		if (d==29)
 		{
@@ -51,7 +51,7 @@ function find()
         {
 		window.alert("Enter the date correctly");
 		
-        }
+        }*/
     var dd = d/2;
         dd = dd*2;
 	    sum1 = dd+ r;
