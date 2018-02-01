@@ -22,8 +22,36 @@ function find()
 	  }
 	if ( d>=1 && d<=31)
 	{
+		if (d==29)
+		{
+			if(m==2 || m=="february" || m=="FEBRUARY" || m=="February")
+			{
+			   var l=Math.floor(y%4);
+				if(l==0)
+				{
+			        }
+				else()
+				{
+					window.alert("this is not a leap year so you cannot give 29 for february");
+					exit();
+				}
+			}
+		}
+		else if ( d==30 || d==31)
+		{
+			if(m==2 || m=="february" || m=="FEBRUARY" || m=="February")
+			{
+				window.alert("you cannot give 30 or 31 to february month");
+				exit();
+			}
+		}
+		
 	}
-	
+	else()
+        {
+		window.alert("Enter the date correctly");
+		
+        }
     var dd = d/2;
         dd = dd*2;
 	    sum1 = dd+ r;
